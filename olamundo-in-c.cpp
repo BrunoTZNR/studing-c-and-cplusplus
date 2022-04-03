@@ -2,7 +2,12 @@
 
 int main ( void ) {
 
-    puts("Ola mundo! in C");
+    char nome[30];
+    
+    puts("Qual seu nome?");
+    gets(nome);
+    
+    printf("O nome digitado foi %s!", nome);
 
     return 0;
 
