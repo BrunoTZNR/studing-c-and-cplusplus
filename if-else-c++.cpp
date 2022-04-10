@@ -15,26 +15,20 @@ int main() {
 	if ( numero < 1 || numero > 10 ) {
 		
 		if ( numero < 1 ) {
-			
 			cout << "O número digitado é menor que 1. Digite um novo valor!" << endl;
 			exit(0);	
-			
 		} else {
-			
 			cout << "O número digitado é maior que 10. Digite um novo valor!" << endl;
-			exit(0);	
-			
+			exit(0);		
 		}
 		
 	} else {
 		
 		while ( i < 10 ) {
-			
 			++i;
 			tabuada = numero * i;
 			
-			cout << "10 x " << numero << " = " << tabuada << endl;
-			
+			cout << i << " x " << numero << " = " << tabuada << endl;
 		}
 		
 	}

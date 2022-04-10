@@ -10,9 +10,7 @@ int main() {
 	cout << "Tamanho do array " << sizeof(numbers)/4 << endl;
 	
 	for( int i=0 ; i<sizeof(numbers)/4 ; i++ ){
-		
 		cout << numbers[i] << endl;
-		
 	}
 	cout<<endl;
 	
@@ -21,9 +19,7 @@ int main() {
 	cout << "Tamanho do array " << sizeof(nome)-1 << endl;
 	
 	for( int i=0 ; i<sizeof(nome)-1 ; i++ ){
-		
 		cout << nome[i];
-		
 	}
 	cout<<endl;
 	cout<<endl;
