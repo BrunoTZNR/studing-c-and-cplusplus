@@ -179,5 +179,5 @@ do{
 int variableName[length of array] = {values...};
 
 # shows a array lenght:
-Std::cout << sizeof(variableName) << std::endl;
+std::cout << sizeof(variableName) << std::endl;
 ```
